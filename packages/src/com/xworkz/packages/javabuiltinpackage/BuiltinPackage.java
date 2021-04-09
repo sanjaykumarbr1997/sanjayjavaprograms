@@ -14,7 +14,7 @@ public class BuiltinPackage {
 		Scanner myObj = new Scanner(System.in);//scanner is class of jav.lang.util.Util package
 		
 		System.out.println("Enter username");  //you need to use import or else you get error
-		System.out.println(" username is:"+myObj.nextLine());
+		System.out.println(" username is:"+ myObj.nextLine());
 
 	}
 
