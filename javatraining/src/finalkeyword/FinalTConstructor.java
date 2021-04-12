@@ -4,11 +4,13 @@ public class FinalTConstructor {
 	
 	final static int y=100;
 	final int x ;
-	/*
-	void play() {
+	
+	/*void play() {
 		x=250;
+		}
+		*/
 		
-	} */
+	
 	
 	FinalTConstructor(int value){
 		

@@ -1,4 +1,4 @@
-package com.xworkz.encapsulationdemo;
+package com.xworkz.encapsulation;
 
 public class Human {
 	

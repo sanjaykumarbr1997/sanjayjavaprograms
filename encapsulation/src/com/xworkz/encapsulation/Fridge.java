@@ -1,15 +1,11 @@
-package com.xworkz.encapsulationdemo;
+package com.xworkz.encapsulation;
 
-public class Fan {
+public class Fridge {
 	
 	private String color;
 	private String brand;
-	private int noOfBlades;
+	private int noOfDoors;
 	private int ratings;
-	
-	public Fan() {
-		System.out.println("Printing from default constructor");
-	}
 	
 	public String getColor() {
 		return color;
@@ -23,17 +19,17 @@ public class Fan {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-	public int getnoOfBlades() {
-		return noOfBlades;
+	public int getNoOfDoors() {
+		return noOfDoors;
 	}
-	public void setnoOfBlades(int noOfBlades) {
+	public void setNoOfDoors(int noOfDoors) {
 		
-		if ((noOfBlades <0) || (noOfBlades>4)) {
-			System.out.println("Invalid input for noOfBlades");
-			this.noOfBlades =0;
+		if ((noOfDoors <0) || (noOfDoors>2)) {
+			System.out.println("Invalid input for noOfDoors");
+			this.noOfDoors =0;
 			return;
 		}
-		this.noOfBlades = noOfBlades;
+		this.noOfDoors = noOfDoors;
 	}
 	public int getRatings() {
 		return ratings;

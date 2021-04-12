@@ -9,7 +9,7 @@ public class Capsicum extends Vegetable{
 		this("green","round",30.00); 
 	
 	}
-	
+	 
 	Capsicum(String color ,String shape ,double price){
 		
 		super("Capsicum");
