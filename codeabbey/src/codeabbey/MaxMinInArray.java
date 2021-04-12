@@ -6,26 +6,39 @@ public class MaxMinInArray {
 
 	public static void main(String[] args) {
 		
-		int arrayTotal[] = {};
-		//int max = arrayTotal[0];
+		int total = 300;
 		
 		Scanner scc = new Scanner(System.in);
+		int array4 [] = new int[total];
 		
-		int j= 0;
-		for (j=0;j<100;j++) {
-			arrayTotal[j] = scc.nextInt();
+		int max = 0;
+		int min =0;
+		for (int j=0;j<300;j++) {
+			
+			int input = scc.nextInt();
+			array4[j]=input;
+			
+			if (input > max) {
+				max = input;
+			
+			}
+			
+			else if(input<min){
+				min =input;
+			}
+	
+	
+			
 			
 		}
 		scc.close();
-		
-		System.out.println(Arrays.toString(arrayTotal));
-		
-		
+		System.out.println(max+" "+min);
+
 		
 		
 		
-		//int number1 = scc.nextInt();
-		//int number2 = scc.nextInt();
+		
+		
 		
 		
 
