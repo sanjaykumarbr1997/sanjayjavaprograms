@@ -1,4 +1,4 @@
-package com.xworkz.object_class.hashcode;
+package com.xworkz.objectclass.hashcode;
 
 public class WashingMachine {
 	

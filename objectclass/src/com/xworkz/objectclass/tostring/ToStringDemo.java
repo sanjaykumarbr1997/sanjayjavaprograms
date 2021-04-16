@@ -1,8 +1,10 @@
-package com.xworkz.object_class.hashcode;
+package com.xworkz.objectclass.tostring;
 
 public class ToStringDemo {
 
 	public static void main(String[] args) {
+		
+		
 		
 		ToStringDemo tsd = new ToStringDemo();
 		System.out.println(tsd);

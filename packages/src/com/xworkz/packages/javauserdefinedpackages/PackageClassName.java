@@ -10,6 +10,7 @@ public class PackageClassName {
 		Fruit fruit2 = new Fruit();
 		
 		System.out.println("fruit name:"+ fruit2.fruitName);
+		
 
    }
 }
