@@ -15,7 +15,7 @@ public class Clock implements Cloneable {
 	}
 		
 		@Override
-		public Object clone() throws CloneNotSupportedException {
+		public Object clone() throws CloneNotSupportedException { //this should always be public not protected
 
 			return super.clone();
 		}

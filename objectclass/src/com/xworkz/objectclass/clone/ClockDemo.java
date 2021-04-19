@@ -9,7 +9,7 @@ public class ClockDemo {
 		
 		System.out.println(clock1);
 		System.out.println(clock2);
-		clock1 = clock2;
+		clock1 = clock2;   //just copies the object reference , new object is not created
 		
 		try {
 			clock3 = (Clock) clock2.clone();
@@ -18,6 +18,7 @@ public class ClockDemo {
 		}
 		System.out.println("-------------------");
 		System.out.println(clock2);
+		
 		System.out.println(clock3);
 
 	}

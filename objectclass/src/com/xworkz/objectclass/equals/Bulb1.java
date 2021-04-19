@@ -1,6 +1,5 @@
 package com.xworkz.objectclass.equals;
 
-import com.sun.org.apache.xpath.internal.operations.Equals;
 
 public class Bulb1 {
 	
@@ -43,3 +42,4 @@ public class Bulb1 {
 		}	
 	}	
 }
+ 
