@@ -6,7 +6,7 @@ public class DoubtDemo {
 		
 		B b = new B(5);
 		
-		System.out.println(b.d);
+		//System.out.println(b.d);
 		System.out.println(b.i);
 		
 		
