@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		System.out.println(bulb1.equals(bulb2));
 		System.out.println(bulb1.equals(bulb3));
 		System.out.println(bulb1.getClass());
-		System.out.println();
+		
 		
 		
 	}

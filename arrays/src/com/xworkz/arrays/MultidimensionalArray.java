@@ -1,31 +1,34 @@
 package com.xworkz.arrays;
 
 public class MultidimensionalArray {
-	
-	static int ar1[][] = new int [3][3];
 
 	public static void main(String[] args) {
-		ar1[0][0] = 0;
-		ar1[0][1] =1;
-		ar1[0][2] =2;
-		ar1[1][0] =3;
-		ar1[1][1]= 4;
-		ar1[1][2]=5;
-		ar1[2][0]=6;
-		ar1[2][1]=7;
-		ar1[2][2]=8;
+		int ar1[][] = new int [3][3];
 		
-		
+		int j = 0;
 		for(int i=0;i<ar1.length;i++) {
+		
 			System.out.print("[");
-			for(int j=0;j<ar1.length;j++){
-				System.out.print(" "+ar1[i][j]+" ");
+			for(int count=0;count<ar1.length;count++ ,j++){
+				ar1[i][count]=j;
 				
+				System.out.print(" "+ar1[i][count]+" ");	
 			}
 			System.out.println("]");
-		}  
+		}  	
+		System.out.println("------------");
 		
-		
+		char ch[][] = {{'a','b','c'},{'d','e','f'},{'g','h','i'},{'j','k','l'}};
+		for(int i=0;i<ch.length;i++) {
+			
+			System.out.print("[");
+			for(int m=0;m<ch[i].length;m++){
+				
+				System.out.print(" "+ch[i][m]+" ");	
+			}
+			System.out.println("]");
+			
+		}
+			
 	}
-
 }
