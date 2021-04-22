@@ -5,14 +5,14 @@ public class MultidimensionalArray {
 	public static void main(String[] args) {
 		int ar1[][] = new int [3][3];
 		
-		int j = 0;
+		int p = 0;
 		for(int i=0;i<ar1.length;i++) {
 		
 			System.out.print("[");
-			for(int count=0;count<ar1.length;count++ ,j++){
-				ar1[i][count]=j;
+			for(int j=0;j<ar1.length;j++ ,p++){
+				ar1[i][j]=p;
 				
-				System.out.print(" "+ar1[i][count]+" ");	
+				System.out.print(" "+ar1[i][j]+" ");	
 			}
 			System.out.println("]");
 		}  	
