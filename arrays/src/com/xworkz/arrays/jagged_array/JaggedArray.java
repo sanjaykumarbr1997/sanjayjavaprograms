@@ -1,4 +1,4 @@
-package com.xworkz.arrays;
+package com.xworkz.arrays.jagged_array;
 
 public class JaggedArray {
 

@@ -1,4 +1,4 @@
-package com.xworkz.arrays;
+package com.xworkz.arrays.multidimensional_array;
 
 public class MultidimensionalArray {
 

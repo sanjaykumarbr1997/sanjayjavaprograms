@@ -1,4 +1,4 @@
-package com.xworkz.arrays;
+package com.xworkz.arrays.assignment_even;
 
 public class EvenArray {
 	public static void main(String[] args) {

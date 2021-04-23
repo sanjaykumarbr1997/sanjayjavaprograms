@@ -1,4 +1,4 @@
-package com.xworkz.arrays;
+package com.xworkz.arrays.singledimension_array;
 
 public class SingleDimensionArrayDemo {
 	
