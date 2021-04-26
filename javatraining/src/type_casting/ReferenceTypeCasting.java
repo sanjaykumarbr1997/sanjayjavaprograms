@@ -7,7 +7,12 @@ public class ReferenceTypeCasting {
 		
 		//Child c = new Parent();  --not possible:error
 		Child c = (Child)p;   //-->Downcasting
-		//do this Parent p = new Parent(); , Child c = (Child)p not possible
+		
+		p.method1();
+		c.method1();
+		c.method2();           //after downcasting child member can access all members
+		
+		
 		
 		
 		
