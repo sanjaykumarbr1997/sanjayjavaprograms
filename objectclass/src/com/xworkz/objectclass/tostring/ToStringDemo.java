@@ -9,7 +9,7 @@ public class ToStringDemo {
 		ToStringDemo tsd = new ToStringDemo();
 		System.out.println(tsd);
 		System.out.println(tsd.toString());
-		
+		System.out.println();
 		
 
 	}
