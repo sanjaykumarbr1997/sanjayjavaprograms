@@ -41,18 +41,6 @@ public class MethodArray {
 		int ar5[][]= {{10,20,15}};	    
 	    System.out.println("checking whether two arrays are equal :"+Arrays.deepEquals(ar4, ar5));
 	    
-	   //HashCode
-	    System.out.println("displaying hashcode :"+Arrays.hashCode(ar1));
-	   
-	    //deepHashCode
-	    System.out.println("displaying deephashcode :"+Arrays.deepHashCode(ar5));
-	    
-	  //toString
-	    System.out.println("string format "+Arrays.toString(ar1));
-
-	    
-	    //deepToString
-	    System.out.println("string format "+Arrays.deepToString(ar5));
 	    
 	    //fill
 		int ar6[] = {10,20,15,22,35,77};
