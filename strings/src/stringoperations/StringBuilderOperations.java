@@ -49,7 +49,8 @@ public class StringBuilderOperations {
 		System.out.println("Before trim capacity is :"+ dog9.capacity());
 		dog9.trimToSize();
 		System.out.println(dog9);
-		System.out.println("After trim capacity is :"+ dog9.capacity());	
+		System.out.println("After trim capacity is :"+ dog9.capacity());
+		
 		
 	}
 
