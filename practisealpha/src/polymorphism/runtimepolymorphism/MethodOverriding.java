@@ -1,5 +1,4 @@
 
-1
 package polymorphism.runtimepolymorphism;
 
 public class MethodOverriding {
