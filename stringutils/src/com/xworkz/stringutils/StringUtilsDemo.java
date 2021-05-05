@@ -44,7 +44,7 @@ public class StringUtilsDemo {
 		System.out.println(StringUtils.normalizeSpace(name2));
 		
 		
-		//strip - similar to trim , deltets unwanted spaces at start and end
+		//strip - similar to trim , deletes unwanted spaces at start and end
 		String name3 = "     Hello everyone, i hope you all are well   ";
 		System.out.println(StringUtils.strip(name3));
 		
