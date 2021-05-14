@@ -4,14 +4,13 @@ public class CombinedSort {
 	
 public static void main(String[] args) {
 		
-		char ar1[] = {'A','2','b','5','C','3','d','9','E','2'};
+		int ar1[] = {12,11,25,123,523,234,23,};
 		System.out.println("Before sorting");
 		
 		for(int i=0;i<ar1.length;i++) {
 			System.out.print(ar1[i]+" ");
 		}
 		System.out.println();
-		
 		
 		for(int l=0;l<ar1.length;l++) {
 		
@@ -23,25 +22,22 @@ public static void main(String[] args) {
 				
 			}
 			
-			char smallest = ar1[index];
-			ar1[index]= ar1[l];
-			ar1[l]=smallest;
+			int smallest = ar1[index]; //12
+			ar1[index]= ar1[l];  //ar1[4]= ar1[0]
+			ar1[l]=smallest;	
 			
-
 			
-			}
+			
+			
+		}
+		
+		
+		System.out.println();
+			
 		System.out.println("after sorting");
 		for(int i=0;i<ar1.length;i++) {
 			System.out.print(ar1[i]+" ");
-		}
-			
-			
-			
-			
-		
-			
-			
+		}	
 	}
-
 
 }

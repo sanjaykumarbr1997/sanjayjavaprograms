@@ -17,13 +17,14 @@ public class Boxing{
 			Boolean b2 = bb;
 			
 			Float f1 = f;
-			
+			Float f2 = Float.valueOf(f1);
 			
 			System.out.println(i);
 			System.out.println(j);
 			System.out.println(b1);
 			System.out.println(b2);
 			System.out.println(f1);
+			System.out.println(f2);
 
 
 

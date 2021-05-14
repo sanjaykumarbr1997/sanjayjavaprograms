@@ -8,12 +8,12 @@ public class Unboxing {
 		
 		Integer i = 15;
 		int j = i;   // auto unboxing
-		int k = i.intValue();  //explicit unboxing
+		int k = i.intValue() ; //explicit unboxing
 		
 		
-		// Float fa = 56.5f;
-		//float f1 = fa;
-		//float f2 = f1.
+		Float fa = 56.5f;
+		float f1 = fa;
+		//float f2 = f1.floatValue();
 		
 		Character c1 = 'p';
 		char c2 = c1;
@@ -24,8 +24,8 @@ public class Unboxing {
 		
 		System.out.println(j);
 		System.out.println(k);
-		System.out.println();
-		
+		System.out.println(f1);
+		System.out.println(c2);
 	}
 
 }
