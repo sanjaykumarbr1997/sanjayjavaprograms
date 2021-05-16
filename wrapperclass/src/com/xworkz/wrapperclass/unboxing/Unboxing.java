@@ -13,12 +13,11 @@ public class Unboxing {
 		
 		Float fa = 56.5f;
 		float f1 = fa;
-		//float f2 = f1.floatValue();
+		float f2 = fa.floatValue();
 		
 		Character c1 = 'p';
 		char c2 = c1;
-		//char c4 = c2.
-				
+		char c4 = c1.charValue();				
 				
 		
 		
