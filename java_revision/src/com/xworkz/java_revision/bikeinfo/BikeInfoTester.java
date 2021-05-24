@@ -8,7 +8,7 @@ public class BikeInfoTester {
 		
 		BikeInfo.displayAll();
 		
-		BikeInfo.setInfo("Bajaj",65000l,25,Model.Y_2019,CubicCapacity.CC_150) ;
+		BikeInfo.setInfo("Bajaj",65000l,25,Model.TWENTY_TWENTY.getyearInWords(),CubicCapacity.CC_150) ;
 		
 		BikeInfo.displayAll();
 

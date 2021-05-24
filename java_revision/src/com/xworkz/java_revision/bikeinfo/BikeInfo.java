@@ -6,16 +6,19 @@ public class BikeInfo {
 	static String brand;
 	static long price;
 	static int mileage;
-	static Model model;
+	//static Model model;
 	static CubicCapacity cc;
+	static int model;
 	
 	
-static void setInfo(String brandN  ,long priceN,int mileageN,Model modelN,CubicCapacity ccN) {
-		
+//static void setInfo(String brandN  ,long priceN,int mileageN,Model modelN,CubicCapacity ccN) {
+	
+	static void setInfo(String brandN  ,long priceN,int mileageN,int modelN,CubicCapacity ccN) {
 		brand= brandN;
 		price= priceN;
 		mileage= mileageN;
 		model = modelN;
+		
 		cc = ccN;
 	
 		
