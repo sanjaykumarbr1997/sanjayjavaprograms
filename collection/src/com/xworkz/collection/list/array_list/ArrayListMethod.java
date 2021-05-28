@@ -40,6 +40,7 @@ public class ArrayListMethod  {
 		
 		arrayList.add(car);
 		
+		
 		arrayList.add(dog.color);
 		arrayList.add(9);
 		arrayList.remove(9);
