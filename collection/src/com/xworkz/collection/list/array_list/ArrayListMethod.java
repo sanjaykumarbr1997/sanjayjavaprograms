@@ -1,5 +1,6 @@
 package com.xworkz.collection.list.array_list;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListMethod  {
 	
@@ -24,6 +25,12 @@ public class ArrayListMethod  {
 		
 		ArrayList arrayList = new ArrayList();
 		ArrayList arrayList1 = new ArrayList();
+		ArrayList arrayList3 =  new ArrayList();
+		
+		arrayList3.add("A");
+		arrayList3.add("B");
+		arrayList3.add("C");
+		
 
 		ArrayListMethod car = new ArrayListMethod("car","red",100.00);
 		ArrayListMethod teddy = new ArrayListMethod("teddy","orange",250.00);
@@ -60,14 +67,29 @@ public class ArrayListMethod  {
 		System.out.println(arrayList.get(0));
 		System.out.println(arrayList);
 		
+		System.out.println("----------");
 		
+		Iterator iterator = arrayList.iterator();
 		
+	  while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+			
+		}
+	  
+	  Iterator iterator3 = arrayList3.iterator();
 		
+		String str;
+		while(iterator3.hasNext()) {
+			str = (String) iterator3.next();
+			if(str.equals("B")) {
+				iterator3.remove();
+				System.out.println("element removed ");
+				break;
+			}
+			
+		}
 		
-		
-		
-		
-		
+		System.out.println(arrayList3);
 		
 		
 	}

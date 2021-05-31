@@ -1,5 +1,6 @@
 package com.xworkz.collection.list.vector_list;
 
+import java.util.Enumeration;
 import java.util.Vector;
 
 public class VectorDemo {
@@ -15,9 +16,16 @@ public class VectorDemo {
 		
 		System.out.println(vector);
 		
-		for(Object music:vector) {
-			String musicString = (String) music;
-			if(musicString.length()>3) {
+		Enumeration<String> enm = vector.elements();
+		while(enm.hasMoreElements()) {
+			String musicString = enm.nextElement();
+			System.out.println(musicString);
+		}
+		
+		System.out.println("------");
+		for(String music:vector) {
+		
+			if(music.length()>3) {
 			System.out.println(music);
 			}
 			
