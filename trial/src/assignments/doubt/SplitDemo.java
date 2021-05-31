@@ -6,20 +6,25 @@ public class SplitDemo {
 
 	public static void main(String[] args) {
 		
-		String msg = "hello Sanjay.How are you";
+		String msg = "Hello Hello Hello Wakeup Developers";
 		System.out.println(msg);
-		
-		char ms[] = msg.toCharArray();		
-		for(int i=0;i<ms.length;i++) {
+		String temp ="";
+		char arr[] = msg.toCharArray();		
+		for(int i=0;i<arr.length;i++) {
 			
-			if(ms[i]=='.') {
-				continue;
+			if(arr[i]!=' ') {
+				
+				temp=temp+arr[i];
+				
 				
 			}
 			else {
-				//String sr[]= ms[i].valueOf();
+				System.out.println(temp);
+				temp="";
+				
 			}
 		}
+		System.out.println(temp);
 				
 
 	}

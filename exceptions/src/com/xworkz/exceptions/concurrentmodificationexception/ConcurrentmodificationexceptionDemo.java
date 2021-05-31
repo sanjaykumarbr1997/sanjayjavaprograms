@@ -12,7 +12,6 @@ public class ConcurrentmodificationexceptionDemo {
 		list.add("L");
 		list.add("S");
 		list.add("O");
-		list.add("M");
 		list.add("P");
 		
 		Iterator<String> it = list.iterator();
@@ -20,10 +19,11 @@ public class ConcurrentmodificationexceptionDemo {
 			 System.out.println(it.hasNext());
 			 String value = it.next(); 
 			 System.out.println("List Value:" + value);  
-			  if (value.equals("M")) {  
+			  if (value.equals("O")) {  
 			  list.remove(value);  
 			  }
 	     }  
+		 System.out.println(list);
 			   
 	}
 

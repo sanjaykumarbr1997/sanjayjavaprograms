@@ -33,11 +33,11 @@ public class LinkedListMethod {
 		list2.add("BMW");
 		list2.add("Ford");
 		
-		Iterator<String> listIterator = list2.iterator();
+		ListIterator<String> listIterator = list2.listIterator();
 		while(listIterator.hasNext()) {
 			String obj = listIterator.next();
 			if(obj.equals("Audi")){
-				System.out.println("Its Audi");;
+				System.out.println("Its Audi");
 			}
 			if(obj.equals("BMW")){
 				System.out.println("Its BMW");
