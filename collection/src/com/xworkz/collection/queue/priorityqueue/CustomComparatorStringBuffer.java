@@ -1,4 +1,4 @@
-package com.xworkz.collection.set.treeset;
+package com.xworkz.collection.queue.priorityqueue;
 
 import java.util.Comparator;
 

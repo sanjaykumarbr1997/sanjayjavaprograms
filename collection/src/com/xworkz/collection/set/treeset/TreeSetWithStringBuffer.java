@@ -7,7 +7,7 @@ public class TreeSetWithStringBuffer {
 
 	public static void main(String[] args) {
 		
-		TreeSet<StringBuffer> ts = new TreeSet<>();
+		TreeSet<StringBuffer> ts = new TreeSet<>(new CustomComparatorStringBuffer());
 		
 		ts.add(new StringBuffer("eco"));
 		ts.add(new StringBuffer("om"));

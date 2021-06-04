@@ -21,8 +21,8 @@ public class LinkedListMethod {
 		//list.removeFirst();
 		list.addLast(10);
 		//list.removeLast();
-		
-		
+		System.out.println(list);
+		System.out.println(list.peek());
 		System.out.println(list);
 		System.out.println(list.getFirst());
 		System.out.println(list.getLast());
