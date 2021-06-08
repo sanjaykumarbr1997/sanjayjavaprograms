@@ -22,7 +22,7 @@ public class Players {
 
 	@Override
 	public String toString() {
-		return "Players [name1=" + name1 + ", name2=" + name2 + ", name3=" + name3 + ", name4=" + name4 + ", name5="
+		return "Players [" + name1 + ", " + name2 + ", " + name3 + ", " + name4 + ", "
 				+ name5 + "]";
 	}
 

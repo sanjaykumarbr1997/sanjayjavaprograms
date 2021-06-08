@@ -12,12 +12,6 @@ public class CustomiedHashMapDemo {
 		Players playersSouthAfrica = new Players("AB Devilliers","Kallis","Pollak","Tahir","Phlander");
 		Players playersEngland = new Players("Pietersen","Cook","FlintOff","Steeves","Stokes");
 		
-				
-		
-		
-		
-		
-		
 		HashMap<String,Object> hmp = new HashMap<>();
 		hmp.put("India", playersIndia);
 		hmp.put("Australia", playersAustralia);
