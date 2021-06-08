@@ -1,5 +1,6 @@
 package com.xworkz.map;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
@@ -12,13 +13,20 @@ public class CustomiedHashMapDemo {
 		Players playersSouthAfrica = new Players("AB Devilliers","Kallis","Pollak","Tahir","Phlander");
 		Players playersEngland = new Players("Pietersen","Cook","FlintOff","Steeves","Stokes");
 		
+		ArrayList<String> newzealandPlayers = new ArrayList<>();
+		newzealandPlayers.add("williamson");
+		newzealandPlayers.add("Taylor");
+		newzealandPlayers.add("Southee");
+		newzealandPlayers.add("Boult");
+		newzealandPlayers.add("Latham");
+		
+		
 		HashMap<String,Object> hmp = new HashMap<>();
 		hmp.put("India", playersIndia);
 		hmp.put("Australia", playersAustralia);
 		hmp.put("SouthAfrice", playersSouthAfrica);
 		hmp.put("England", playersEngland);
-		
-		
+		hmp.put("NewZeaLand", newzealandPlayers);
 		
 		for(Entry<String, Object> entry : hmp.entrySet()) {
 			System.out.println(entry.getKey()+ ":"+entry.getValue());

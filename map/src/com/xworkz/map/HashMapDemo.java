@@ -17,7 +17,6 @@ public class HashMapDemo {
 		hm.put("Punjab","KX1P");
 		
 		
-		
 		for(Map.Entry<String, String> entry : hm.entrySet()) {
 			System.out.println(entry.getKey()+ ":"+entry.getValue());
 		}
