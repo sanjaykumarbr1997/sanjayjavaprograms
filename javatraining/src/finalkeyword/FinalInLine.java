@@ -2,7 +2,7 @@ package finalkeyword;
 
 public class FinalInLine {
 	
-	final static int X =100;
+	final static int X  =100;
 	
 	final int Y =600;
 

@@ -1,5 +1,6 @@
 package com.xworkz.collection.set.treeset;
 
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class TreeSetDemo {
